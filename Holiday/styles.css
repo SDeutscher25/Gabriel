@@ -1,0 +1,50 @@
+.title {
+    color: green;
+}
+body {
+    background-image: url("winter.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: #ffb7cd;
+}
+h2 {
+    color: forestgreen;
+}
+th {
+    color: burlywood;
+}
+p {
+    color: darkturquoise;
+    padding: 16px;
+    font-size: 20px;
+}
+li {
+    color: cadetblue;
+    font-size: 20px;
+}
+td {
+    color: azure;
+}
+a:link {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+td,
+th {
+    border: 1px solid lightgrey;
+    text-align-last: center;
+    padding: 8px;
+}
+h {
+    padding: 8px;
+}

@@ -1,0 +1,52 @@
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    background-image: url("mavelimg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+.title {
+    color: green;
+}
+table {
+    border-collapse: collapse;
+}
+td,
+th {
+    border: 1px solid #fc4242;
+    text-align: center;
+    padding: 9px;
+}
+p {
+    color: #0090d1;
+    font-size: 20px;
+}
+li {
+    color: #2197ff;
+}
+tr:nth-child(even) {
+    background-color: crimson;
+}
+tr:nth-child(odd) {
+    background-color: #c3072c;
+}
+h1 {
+    text-align: center;
+}
+div {
+    border: 5px outset red;
+    background-color: #920000;
+    text-align: center;
+    width: 350px;
+}

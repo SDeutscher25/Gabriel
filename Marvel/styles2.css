@@ -1,0 +1,52 @@
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    background-image: url("Captain.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: aliceblue;
+}
+table {
+    color: aliceblue;
+}
+ol {
+    color: aliceblue;
+}
+ul {
+    color: aliceblue;
+}
+h2 {
+    color: aliceblue;
+}
+h3 {
+    color: aliceblue;
+}
+div {
+    border: 5px outset #9d0000;
+    background-color: #380000;
+    text-align: center;
+    width: 350px;
+    margin: 10px;
+}
+img {
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    display: block;
+}

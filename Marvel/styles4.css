@@ -1,0 +1,59 @@
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    background-image: url("ironman.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: aliceblue;
+}
+table {
+    color: aliceblue;
+}
+h1 {
+    color: aliceblue;
+}
+h2 {
+    color: aliceblue;
+}
+ol {
+    color: aliceblue;
+}
+h3 {
+    color: aliceblue;
+}
+div {
+    border: 5px outset #e30b0b;
+    background-color: #676c00;
+    text-align: center;
+    width: 600px;
+    opacity: 90%;
+}
+ul {
+    color: aliceblue;
+}
+hr {
+    border: dashed yellow 4px;
+    opacity: 50%;
+}
+img {
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    display: block;
+}

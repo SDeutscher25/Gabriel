@@ -1,0 +1,58 @@
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+    background-image: url("spidey.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: aliceblue;
+}
+div {
+    border: 5px outset red;
+    background-image: linear-gradient(to right, black, red);
+    text-align: center;
+    width: adjust-fit;
+    opacity: 90%;
+}
+hr {
+    border: dotted #000000 4px;
+}
+.div1 {
+    border: 5px outset red;
+    background-image: linear-gradient(to right, black, red);
+    text-align: center;
+    width: adjust-fit;
+    opacity: 90%;
+}
+
+.div2 {
+    border: 5px outset red;
+    background-image: linear-gradient(to right, black, red);
+    text-align: center;
+    opacity: 90%;
+    width: fit-content;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+img {
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    display: block;
+}
+

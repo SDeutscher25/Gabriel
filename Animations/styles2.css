@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a0a0a;
+    margin: 0;
+    overflow: hidden;
+}
+.scene {
+    perspective: 400px;
+}
+.cube {
+    position: relative;
+    width: 100px;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+}
+.cube div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #b100ff;
+    box-shadow: 0 0 203px #9400ff;
+    transition: 0.3s;
+}
+.cube:hover div {
+    box-shadow: 0 0 40px #c500ff;
+}
+.front {
+    transform: rotateY(180deg) translateZ(15px) rotatex(90deg) translateZ(95px);
+}
+.back {
+    transform: rotateY(180deg) translateZ(10px) rotatex(30deg) translateZ(95px);
+}
+.left {
+    transform: rotateY(180deg) translateZ(20px) rotatex(150deg) translateZ(95px);
+}
+.right {
+    transform: rotateY(180deg) translateZ(20px) rotatex(210deg) translateZ(95px);
+}
+.top {
+    transform: rotateY(180deg) translateZ(15px) rotatex(270deg) translateZ(95px);
+}
+.bottom {
+    transform: rotateY(180deg) translateZ(10px) rotatex(-30deg) translateZ(95px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.shape {
+    position: relative;
+    width: 100px;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+}
+.shape div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -200px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid #b100ff;
+    box-shadow: 0 0 203px #9400ff;
+    transition: 0.3s;
+}
+.shape:hover div {
+    box-shadow: 0 0 40px #c500ff;
+}
+.q {
+    transform: translateZ(50px);
+}
+.w {
+    transform: rotateY(180deg) translateZ(50px);
+}
+.e {
+    transform: rotateY(-90deg) translateZ(50px);
+}
+.r {
+    transform: rotateY(90deg) translateZ(50px);
+}
+.t {
+    transform: rotateX(45deg) translateZ(85px) translatey(-21px) translatez(-13px);
+}
+.y {
+    transform: rotateX(-90deg) translateZ(50px);
+}
+
+.u {
+    transform: rotateY(0deg) translateY(-29px) rotatex(-45deg) translateZ(-50px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotateX(0) rotateY(0);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 6px 800px 2px;
+    cursor: pointer;
+}

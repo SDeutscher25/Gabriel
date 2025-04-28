@@ -1,0 +1,48 @@
+body{
+    padding: 1%
+}
+
+.section { 
+border: 3px solid #000000;
+    background-image: url(city.jpg);
+    display: block;
+    height: 27em;
+    width:100%;
+
+}
+.inner {
+    width:4%;
+}
+.outer {
+    border: 3px solid #000000;
+    float: inline-start;
+ height: 100%;
+ width :23.8%;
+    margin: 0.2%;
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 203px 200px 200px
+}
+img {
+
+  width:100%
+}
+h1{
+    font-size: 500%;
+    text-align: center;
+    color: beige;
+    font-family: cursive;
+        
+}
+h2{
+    font-family: "Kings", sans-serif;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+     font-family: "Metal Mania", sans-serif;
+}

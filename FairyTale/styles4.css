@@ -1,0 +1,21 @@
+.title {
+    color: #baad00;
+    text-align: center;
+    font-size: 50px;
+}
+a:link {
+    background-color: #dece00;
+    color: #000000;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 150px;
+    cursor: pointer;
+}
+p {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

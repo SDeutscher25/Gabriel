@@ -1,0 +1,39 @@
+a:link {
+    background-color: #00eaff;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+div {
+    background-color: beige;
+    padding: 4px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-family: "pacifico", sans-serif;
+    font-size: 150%;
+    border: dashed 3px #46fce0;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+body {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+body {
+    background-image: url("paper.jpeg");font-family: "Caveat", sans-serif;
+}
+li {
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom:1%;
+}
+a:link {
+    background-color: #0098cb;
+    color: #ffffff;
+    padding: 15px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
